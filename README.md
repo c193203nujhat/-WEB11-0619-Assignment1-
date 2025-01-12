@@ -1,6 +1,2 @@
 # WEB11-0619-Assignment1
-# Html, Css
-# Banner
-# Vission of future
-# Donate
-# Subscription Pannel
+# https://c193203nujhat.github.io/WEB11-0619-Assignment1-/
