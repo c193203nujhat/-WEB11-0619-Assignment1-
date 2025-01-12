@@ -1,0 +1,554 @@
+*{
+    margin: 10px 20px;
+    font-family: fira sans;
+}
+  .bg{
+    background-color: rgba(241, 241, 243, 1)
+  }
+  .font{
+    font-family: "Fira Sans", serif;
+  }
+  
+  .title{
+    font-weight: 700px;
+    font-size: 30px;
+    color: rgba(14, 14, 14, 1);
+  }
+  /* Header section css */
+ .h3{
+      font-family: "Fira Sans", serif;
+      font-weight: bold;
+      font-size: 28px;
+      font-style: normal;
+    }
+    
+    .nav-button{
+      font-family: "Fira Sans", serif;
+      font-weight:600px;
+      font-size: 18px;
+      font-style: normal;
+      border: 2px solid rgba(0, 106, 80, 1);
+      border-radius: 8px;
+      color: rgba(0, 106, 80, 1);
+      height: 52px;
+      width: 116px;
+    }
+
+ /* Hover effect */
+.nav button:hover{
+    display: block;
+    filter: drop-shadow(0 0 10px #034333);
+    background-color: #006A50;
+    color: white;
+}
+
+  
+  .nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  
+  /* Banner-Section css */
+  .banner-greetings{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500px;
+    font-size: 24px;
+  }
+  .banner-title{
+    color: rgba(14, 14, 14, 1);
+    font-size: 46px;
+    font-weight: 700px;
+  }
+  .banner-button{
+    font-size: 18px;
+    font-weight: 600px;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(0, 106, 80, 1);
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    
+  }
+  /* Button Hover */
+.banner button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #006A50);
+    background-color: white;
+    color: #006A50;
+    cursor: pointer;
+    border: none;
+}
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    width: 1092.px;
+    height: 560px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    gap: 60px;
+  }
+  .banner-contain{
+    width: 622px;
+    height: 326px;
+    margin-left: 59.99px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+  } 
+  .banner-img{
+    width: 474.03px;
+    height: 400px;
+    margin-right: 59px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  /* About sectin:Pillars of "Bangladesh 2.0 */
+  .Pillar1{
+    width: 1092px;
+    margin-top: 80px;
+  }
+  .Pillar1-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    width: 990px;
+    height: 350px;
+  }
+  .Pillar1-onediv{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(6, 6, 6, 0.879), 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 24px 24px 0px 24px;
+  }
+  .Pillar-img{
+    width: 64px;
+    height: 64px;
+  }
+  .Pillar-subtitle{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .Pillar-description{
+    width: 235px;
+    height: 92px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px; 
+  }
+  .description{
+    font-weight: 400px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7); 
+  }
+  
+  /* vision of future section */
+  .VF{
+    margin-top: 80px; 
+    margin-bottom: 32px;
+  }
+  
+  .VF-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 32px 0px;
+  }
+  .VF1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(20, 156, 106, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 32px;
+  }
+  .VF2{
+    background-color:rgba(198, 228, 214, 1) ;
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(20, 156, 106, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 32px;
+  }
+  .VF3{
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(20, 156, 106, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 32px;
+  }
+  .VF1-button{
+    background-color: rgba(84, 144, 245, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 122px;
+    height: 41px;
+    font-weight: 600px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+  }
+  /* VF1 Button Hover */
+ .VF1 button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #5490f5);
+    background-color: white;
+    color: #5490F5;
+    cursor: pointer;
+    border: 2px solid #5490F5;
+}
+  .VF2-button{
+    background-color:rgba(9, 161, 92, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 122px;
+    height: 41px;
+    font-weight: 600px;
+    font-size: 16px;
+    border-radius: 8px
+    border: none;
+  }
+  /* VF2 Button Hover */
+ .VF2 button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #5490f5);
+    background-color: white;
+    color: #5490F5;
+    cursor: pointer;
+    border: 2px solid #5490F5;
+}
+  .VF3-button{
+    background-color:rgba(255, 194, 57, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 122px;
+    height: 41px;
+    font-weight: 600px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+  }
+  /* VF3 Button Hover */
+ .VF3 button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #5490f5);
+    background-color: white;
+    color: #5490F5;
+    cursor: pointer;
+    border: 2px solid #5490F5;
+}
+  
+  .quote-sign{
+    background-image: url(../image/quote-bg.png);
+    background-repeat: no-repeat;
+    background-size: 50px 60px;
+  }
+  .quote{
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3), 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 25px 25px; 
+    margin-bottom: 80px;
+  }
+
+  .name-tag{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .quote-details{
+    color: rgba(14, 14, 14, 0.6) ;
+    font-weight: 400px;
+    font-size: 16px;
+    height: 24px; 
+  }
+ /*Recent-News*/
+    .Recent-News{
+    margin-top: 80px; 
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 32px 0px;
+  }
+  .RN1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 245, 248);
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0), 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 32px;
+  }
+  .RN2{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0), 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 32px;
+  }
+  .RN3{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.995);
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0), 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 32px;
+  }
+  .RN1-button{
+    background-color: rgb(16, 61, 23);
+    color: rgba(255, 255, 255, 1);
+    width: 122px;
+    height: 41px;
+    font-weight: 600px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+  }
+  /* RN1 Button Hover */
+ .RN1 button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #5490f5);
+    background-color: white;
+    color: #11de74;
+    cursor: pointer;
+    border: 2px solid #5490F5;
+}
+  .RN2-button{
+    background-color:rgba(9, 161, 92, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 122px;
+    height: 41px;
+    font-weight: 600px;
+    font-size: 16px;
+    border-radius: 8px
+    border: none;
+  }
+  /* RN2 Button Hover */
+ .RN2 button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #5490f5);
+    background-color: white;
+    color: #14de6b;
+    cursor: pointer;
+    border: 2px solid #5490F5;
+}
+  .RN3-button{
+    background-color:rgb(28, 92, 12);
+    color: rgba(255, 255, 255, 1);
+    width: 122px;
+    height: 41px;
+    font-weight: 600px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+  }
+  /* RN3 Button Hover */
+ .RN3 button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #98eead);
+    background-color: rgb(11, 88, 58);
+    color: #fcfcfc;
+    cursor: pointer;
+    border: 2px solid #5490F5;
+}
+  /* DONATE_TODAY */
+  .donate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 60px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .taka-button{
+    display: flex;
+    justify-content: space-between;
+  }
+  .taka-button button{
+    width: 240px;
+    height: 128px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    border:2px solid white;
+  }
+  
+  /* taka-button hover*/
+  .taka-button button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #006A50);
+    background-color: #47b69a;
+    color: white;
+    cursor: pointer;
+    border: 3px solid #20725e;
+  }
+  
+  #color{
+    background-color: #92d9b8;
+    border: 2px solid #92d9b8;
+  }
+  #color:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #618776);
+    background-color: white;
+    color: #177147;
+    cursor: pointer;
+    border: 2px solid #17784b;
+  }
+  .input {
+    width: 1032px;
+    height: 44px;
+    text-align: center;
+    opacity: 80%;
+    font-size: large;
+  }
+  #donate-done {
+    background-color: #006A50; 
+    border: 2px solid #006A50; 
+    color: white; 
+    font-weight: 600; 
+    width: 151px; 
+    height: 56px; 
+    border-radius: 10px; 
+    font-size: larger; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+  }
+  
+  /* donate-done button hover */
+  #donate-done:hover {
+    background-color: white; 
+    color: #006A50;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15); 
+  }
+
+
+  
+  /* news */
+  .news{
+    width: auto;
+    height: auto;
+  }
+  .news1{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    display: flex;
+  }
+  .news-img{
+    padding: 48px 48px;
+    border-radius: 70px;
+  }
+  .news-content{
+     padding-right: 48px;
+     padding-top: 28px;
+  }
+  .news-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(14, 14, 14, 0.8);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .news-btn{
+    background-color:rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 122px;
+    height: 41px;
+    font-weight: 600px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+  }
+  /* Newsletter */
+  
+  .newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 60px;
+    border-width: 1300px;
+    background-color: #327757;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-right: 55px;
+    margin-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .newsletter p{
+    opacity: 60%;
+  }
+  #newsletter-email{
+    width: 650px;
+    height: 55px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(5, 182, 132, 0.3);
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    padding-left: 40px;
+    border: none;
+    font-size: 18px;
+    margin-right: 0px;
+  }
+  .subscribe-panel{
+    display: flex;
+  }
+  .subscribe-panel button{
+    width: 150px;
+    margin-left: 0px;
+    height: 56px;
+    background-color: #006A50;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
+    border: 2px solid #006A50;
+    font-size: larger;
+    font-weight: bold;
+}
+/* .subscription button */
+.subscribe-panel button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #006A50);
+    background-color:white;
+    color: #5aae99;
+    cursor: pointer;
+    border: none;
+}
+
+  /* footer area css */
+  footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 30px 0px;
+    width: 106.5%;
+    margin-left: -30px;
+    margin-bottom: -50px;
+  }
+  .footer h3{
+    padding: 20px 0px;
+  }
+  
+  .social-images{
+    padding: 15px 0px;
+  }
+  .footer hr{
+    opacity: 10%;
+  }
+  
